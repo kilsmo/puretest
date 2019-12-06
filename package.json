@@ -1,0 +1,25 @@
+{
+  "name": "puretest",
+  "version": "1.0.0",
+  "description": "Puretest is a test framework for testing pure functions. A pure function is a function that has no internal state,\r and will return the same value every time if the parameters sent to the function doesn't change.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kilsmo/puretest.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kilsmo/puretest/issues"
+  },
+  "homepage": "https://github.com/kilsmo/puretest#readme",
+  "devDependencies": {
+    "eslint": "6.7.0",
+    "@typescript-eslint/parser": "2.8.0",
+    "@typescript-eslint/eslint-plugin": "2.8.0"
+  }
+}
